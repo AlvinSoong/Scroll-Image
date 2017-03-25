@@ -30,8 +30,8 @@ public class MyListView extends ListView implements View.OnTouchListener, Gestur
     }
 
     public void setOnDeleteListener(OnDeleteListener listener){
-        deleteListener = listener;
-    }
+    deleteListener = listener;
+}
     public MyListView(Context context, AttributeSet attrs) {
         super(context, attrs);
         gestureDetector = new GestureDetector(getContext(), this);
@@ -83,7 +83,6 @@ public class MyListView extends ListView implements View.OnTouchListener, Gestur
      * @param e2   手势当前的移动事件
      * @param velocityX  每秒X轴方向移动的像素
      * @param velocityY  每秒Y轴方向移动的像素
-     * @return
      */
 
     @Override
