@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.soong.scrollimage.MainActivity">
 <com.example.soong.scrollimage.myview.ImageBarnnerViewGroup
     android:id="@+id/image_barnner"
@@ -10,6 +11,10 @@
     android:layout_height="200dp">
 
 </com.example.soong.scrollimage.myview.ImageBarnnerViewGroup>
+<com.example.soong.scrollimage.MyListView
+    android:id="@+id/my_listView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</com.example.soong.scrollimage.MyListView>
 
-
-</RelativeLayout>
+</LinearLayout>

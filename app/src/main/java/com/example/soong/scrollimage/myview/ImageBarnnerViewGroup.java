@@ -8,7 +8,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Scroller;
-import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -197,5 +196,5 @@ public class ImageBarnnerViewGroup extends ViewGroup{
             }
         }
     }
-    
+
 }
